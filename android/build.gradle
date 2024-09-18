@@ -11,9 +11,13 @@ allprojects {
     }
 }
 
+ext {
+    KotlinVersion = '1.9.0' // or any compatible Kotlin version you're using
+}
+
+
 group 'im.nfc.flutter_nfc_kit'
 
-apply plugin: 'kotlin-android'
 android {
 
     namespace 'im.nfc.flutter_nfc_kit'
